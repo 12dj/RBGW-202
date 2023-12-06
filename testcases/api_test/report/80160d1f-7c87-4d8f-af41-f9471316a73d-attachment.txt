@@ -1,0 +1,18 @@
+[2023-12-06 09:39:16,528][test_03_login.py 27][INFO]: *************** 开始执行用例 ***************
+[2023-12-06 09:39:16,529][rest_client.py 51][INFO]: 接口请求地址 ==>> http://63.33.40.58:10010/api/Account/Login
+[2023-12-06 09:39:16,529][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2023-12-06 09:39:16,529][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2023-12-06 09:39:16,529][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2023-12-06 09:39:16,530][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2023-12-06 09:39:16,530][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> {
+    "username": "tech020@hzdusun.com",
+    "password": "Djl123456"
+}
+[2023-12-06 09:39:16,530][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-12-06 09:39:16,530][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2023-12-06 09:39:22,753][user.py 102][INFO]: 登录用户 ==>> 返回结果 ==>> {"data":{"code":10000,"userName":"tech020@hzdusun.com","nickName":null,"email":"tech020@hzdusun.com","signIn":{"succeeded":true,"isLockedOut":false,"isNotAllowed":false,"requiresTwoFactor":false},"succeeded":true,"token":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6WyJ0ZWNoMDIwQGh6ZHVzdW4uY29tIiwidGVjaDAyMEBoemR1c3VuLmNvbSJdLCJuYW1laWQiOiI0ODk4NDY4MjEyMjA0MjEiLCJ1bmlxdWVfbmFtZSI6InRlY2gwMjBAaHpkdXN1bi5jb20iLCJqdGkiOiI0OTAxMzM3MzQwODA1ODEiLCJjdXN0b21lciI6IjQ1MDg3MDA4ODY3MTMwMiIsInRlbmFudCI6IjQ1MDg3MDA4ODY3MTMwMSIsInJvbGUiOiJOb3JtYWxVc2VyIiwibmJmIjoxNzAxODI2NzU4LCJleHAiOjE3MDE5MTMxNTgsImlhdCI6MTcwMTgyNjc1OCwiaXNzIjoiSW9UU2hhcnAuTmV0IiwiYXVkIjoiSW9UU2hhcnAuTmV0In0.Aw4mDFQGo517p0E9_4KL67G_P6ayZD3CtToVw5ycJpU","expires_in":86400,"refresh_token":"ae08f93f-c879-4a45-8b77-f7bd047ea77a","expires":"2023-12-07T01:39:18Z"},"roles":["NormalUser"],"avatar":"https://insigma-eu-public-1.s3.amazonaws.com/","switchSecurityPassword":false,"switchFaceRecognition":false,"switchFingerprint":false,"autoLockInterval":0,"enableDeviceNotice":true,"enableShareNotice":true},"code":10000,"msg":"Ok!"}
+[2023-12-06 09:39:22,753][test_03_login.py 10][INFO]: 步骤1 ==>> 登录用户：tech020@hzdusun.com
+[2023-12-06 09:39:22,754][test_03_login.py 33][INFO]: code ==>> 期望结果：10000， 实际结果：【 10000 】
+[2023-12-06 09:39:22,754][test_03_login.py 36][INFO]: *************** 结束执行用例 ***************

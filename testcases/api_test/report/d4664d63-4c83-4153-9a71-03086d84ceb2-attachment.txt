@@ -1,0 +1,17 @@
+[2023-12-06 09:41:34,972][test_03_login.py 27][INFO]: *************** 开始执行用例 ***************
+[2023-12-06 09:41:34,972][rest_client.py 51][INFO]: 接口请求地址 ==>> http://63.33.40.58:10010/api/Account/Login
+[2023-12-06 09:41:34,972][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2023-12-06 09:41:34,972][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+[2023-12-06 09:41:34,972][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2023-12-06 09:41:34,972][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2023-12-06 09:41:34,972][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> {
+    "username": "测试test",
+    "password": "123456"
+}
+[2023-12-06 09:41:34,972][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2023-12-06 09:41:34,972][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2023-12-06 09:41:35,413][user.py 102][INFO]: 登录用户 ==>> 返回结果 ==>> {"data":{"code":10001,"userName":null,"nickName":null,"email":null,"signIn":null,"succeeded":false,"token":null,"roles":null,"avatar":null,"switchSecurityPassword":false,"switchFaceRecognition":false,"switchFingerprint":false,"autoLockInterval":0,"enableDeviceNotice":false,"enableShareNotice":false},"code":10001,"msg":"Email address not exist!"}
+[2023-12-06 09:41:35,413][test_03_login.py 10][INFO]: 步骤1 ==>> 登录用户：测试test
+[2023-12-06 09:41:35,413][test_03_login.py 33][INFO]: code ==>> 期望结果：10001， 实际结果：【 10001 】

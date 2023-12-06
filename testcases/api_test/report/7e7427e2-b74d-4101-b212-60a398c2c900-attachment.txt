@@ -1,0 +1,16 @@
+INFO     log:test_03_login.py:27 *************** 开始执行用例 ***************
+INFO     log:rest_client.py:51 接口请求地址 ==>> http://63.33.40.58:10010/api/Account/Login
+INFO     log:rest_client.py:52 接口请求方式 ==>> POST
+INFO     log:rest_client.py:54 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+INFO     log:rest_client.py:55 接口请求 params 参数 ==>> null
+INFO     log:rest_client.py:56 接口请求体 data 参数 ==>> null
+INFO     log:rest_client.py:57 接口请求体 json 参数 ==>> {
+    "username": "tech020@hzdusun.com",
+    "password": "Djl123456"
+}
+INFO     log:rest_client.py:58 接口上传附件 files 参数 ==>> None
+INFO     log:rest_client.py:59 接口 cookies 参数 ==>> null
+INFO     log:user.py:104 登录用户 ==>> 返回结果 ==>> {"data":{"code":10000,"userName":"tech020@hzdusun.com","nickName":null,"email":"tech020@hzdusun.com","signIn":{"succeeded":true,"isLockedOut":false,"isNotAllowed":false,"requiresTwoFactor":false},"succeeded":true,"token":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6WyJ0ZWNoMDIwQGh6ZHVzdW4uY29tIiwidGVjaDAyMEBoemR1c3VuLmNvbSJdLCJuYW1laWQiOiI0ODk4NDY4MjEyMjA0MjEiLCJ1bmlxdWVfbmFtZSI6InRlY2gwMjBAaHpkdXN1bi5jb20iLCJqdGkiOiI0ODk4OTc3NTc2MjIzNDEiLCJjdXN0b21lciI6IjQ1MDg3MDA4ODY3MTMwMiIsInRlbmFudCI6IjQ1MDg3MDA4ODY3MTMwMSIsInJvbGUiOiJOb3JtYWxVc2VyIiwibmJmIjoxNzAxNzY5MTQ2LCJleHAiOjE3MDE4NTU1NDYsImlhdCI6MTcwMTc2OTE0NiwiaXNzIjoiSW9UU2hhcnAuTmV0IiwiYXVkIjoiSW9UU2hhcnAuTmV0In0.OFgNGLmWTBzQqr4371vlmAo-w7IbnqAr9rgdzb_8omo","expires_in":86400,"refresh_token":"9201f373-96fa-4a3a-a718-db8889b8f4fe","expires":"2023-12-06T09:39:06Z"},"roles":["NormalUser"],"avatar":"https://insigma-eu-public-1.s3.amazonaws.com/","switchSecurityPassword":false,"switchFaceRecognition":false,"switchFingerprint":false,"autoLockInterval":0,"enableDeviceNotice":true,"enableShareNotice":true},"code":10000,"msg":"Ok!"}
+INFO     log:test_03_login.py:10 步骤1 ==>> 登录用户：tech020@hzdusun.com

@@ -1,0 +1,18 @@
+INFO     log:test_03_login.py:27 *************** 开始执行用例 ***************
+INFO     log:rest_client.py:51 接口请求地址 ==>> http://63.33.40.58:10010/api/Account/Login
+INFO     log:rest_client.py:52 接口请求方式 ==>> POST
+INFO     log:rest_client.py:54 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+INFO     log:rest_client.py:55 接口请求 params 参数 ==>> null
+INFO     log:rest_client.py:56 接口请求体 data 参数 ==>> null
+INFO     log:rest_client.py:57 接口请求体 json 参数 ==>> {
+    "username": "测试test",
+    "password": "123456"
+}
+INFO     log:rest_client.py:58 接口上传附件 files 参数 ==>> None
+INFO     log:rest_client.py:59 接口 cookies 参数 ==>> null
+INFO     log:user.py:102 登录用户 ==>> 返回结果 ==>> {"data":{"code":10001,"userName":null,"nickName":null,"email":null,"signIn":null,"succeeded":false,"token":null,"roles":null,"avatar":null,"switchSecurityPassword":false,"switchFaceRecognition":false,"switchFingerprint":false,"autoLockInterval":0,"enableDeviceNotice":false,"enableShareNotice":false},"code":10001,"msg":"Email address not exist!"}
+INFO     log:test_03_login.py:10 步骤1 ==>> 登录用户：测试test
+INFO     log:test_03_login.py:33 code ==>> 期望结果：10001， 实际结果：【 10001 】
+INFO     log:test_03_login.py:36 *************** 结束执行用例 ***************
